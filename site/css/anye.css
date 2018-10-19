@@ -1,0 +1,7 @@
+ul { list-style: none; padding: 0; margin: 0; }
+#goodslist img { width: 160px; }
+#goodslist ul { overflow: hidden; }
+#goodslist li { float: left; width: 200px; padding: 15px; border-right: 1px dotted #ccc; margin: 15px; }
+.price span { color: #f00; }
+.price span::before {content:'￥';}
+
